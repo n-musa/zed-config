@@ -1,0 +1,22 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-escape": "terminal_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "cmd-escape": "workspace::ToggleBottomDock",
+      "cmd-t": "workspace::NewTerminal"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-1": "editor::Format",
+      "cmd-2": "editor::ToggleComments"
+    }
+  }
+]
